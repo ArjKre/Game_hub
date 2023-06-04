@@ -1,6 +1,6 @@
 # game_hub
 
-A new Flutter project.
+An Android Applicaiton where You can play multiple flutter design games
 
 ## Getting Started
 
