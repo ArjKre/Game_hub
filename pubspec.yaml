@@ -1,0 +1,75 @@
+name: game_hub
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_spinkit: ^5.1.0
+  another_flutter_splash_screen: ^1.1.4
+
+
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  image_path: "assets/Icon/gamehubicon.png"
+  android: true
+  min_sdk_android: 21
+
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+   - assets/images/
+   - assets/images/local/
+   - assets/Icon/
+   - assets/images/games/
+   - assets/images/games/Snake/
+   - assets/images/games/Tetris/
+   - assets/images/games/minesweeper/
+   - assets/images/games/flappybird/
+
+
+  fonts:
+   - family: League
+     fonts:
+       - asset: assets/fonts/League-Inline.otf
+
+   - family: Metropolis
+     fonts:
+       - asset: assets/fonts/Metropolis-SemiBold.otf
+
+   - family: superstar
+     fonts:
+       - asset: assets/fonts/superstar.ttf
+
+   - family: Mario
+     fonts:
+       - asset: assets/fonts/Mario.ttf
+
+   - family: JQKA
+     fonts:
+       - asset: assets/fonts/JQKAs Wild.otf
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
